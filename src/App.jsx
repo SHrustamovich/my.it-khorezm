@@ -1,12 +1,7 @@
-import LoginPage from "./pages/login"
+import LoginPage from "./pages/login";
 
 function App() {
-
-  return (
-    
-      <LoginPage/>
-    
-  )
+  return <LoginPage />;
 }
 
-export default App
+export default App;
