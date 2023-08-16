@@ -1,12 +1,9 @@
-import LoginPage from "./pages/login"
+import Direction from "./constants/routes";
 
 function App() {
-
   return (
-    
-      <LoginPage/>
-
+    <Direction />
   )
 }
 
-export default App
+export default App;
