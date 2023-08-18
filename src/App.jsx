@@ -1,7 +1,7 @@
-import LoginPage from "./pages/login";
+import Root from "./components/Root";
 
 function App() {
-  return <LoginPage />;
+  return <Root />;
 }
 
 export default App;
