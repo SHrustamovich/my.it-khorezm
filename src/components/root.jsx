@@ -1,8 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-import { routes } from "@/constants/routes";
-import Menu from "./menu";
+import { routes } from "../constants/routes";
 import Header from "./header";
+import Menu from "./menu";
 
 const Root = () => {
   return (

@@ -1,31 +1,14 @@
-import Logo from "./logo";
-import HomePageIcon from "./homePageIcon";
-import BookIcon from "./bookIcon";
-import CalendarIcon from "./calendarIcon";
-import InstructorsIcon from "./instructors";
-import ProfileIcon from "./profileIcon";
-import PaymentIcon from "./paymentIcon";
-import ActivityIcon from "./activityIcon";
-import ChatIcon from "./chatIcon";
-import NotificationIcon from "./notification";
-import SettingIcon from "./setting";
-import ProfileImage from "./profileImage";
-import LogOutIcon from "./logOut";
-import DropdownProfileIcon from "./dropdownProfileIcon";
-
-export {
-  Logo,
-  HomePageIcon,
-  BookIcon,
-  CalendarIcon,
-  InstructorsIcon,
-  ProfileIcon,
-  PaymentIcon,
-  ActivityIcon,
-  ChatIcon,
-  NotificationIcon,
-  SettingIcon,
-  ProfileImage,
-  LogOutIcon,
-  DropdownProfileIcon,
-};
+export { default as Logo } from "./logo";
+export { default as HomePageIcon } from "./homePageIcon";
+export { default as BookIcon } from "./bookIcon";
+export { default as CalendarIcon } from "./calendarIcon";
+export { default as InstructorsIcon } from "./instructorsIcon";
+export { default as ProfileIcon } from "./profileIcon";
+export { default as PaymentIcon } from "./paymentIcon";
+export { default as ActivityIcon } from "./activityIcon";
+export { default as ChatIcon } from "./chatIcon";
+export { default as NotificationIcon } from "./notificationIcon";
+export { default as SettingIcon } from "./settingIcon";
+export { default as ProfileImage } from "./profileImage";
+export { default as LogOutIcon } from "./logOutIcon";
+export { default as DropdownProfileIcon } from "./dropdownProfileIcon";
