@@ -1,21 +1,21 @@
 *,
 *::after,
 *::before {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
 }
 ul,
 li {
-    list-style: none;
+  list-style: none;
 }
 a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 img {
-    vertical-align: top;
+  vertical-align: top;
 }
 h1,
 h2,
@@ -23,10 +23,14 @@ h3,
 h4,
 h5,
 h6 {
-    font-size: inherit;
-    font-weight: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 button {
-    cursor: pointer;
-    background: inherit;
+  cursor: pointer;
+  background: inherit;
+}
+::selection {
+  background-color: #7dba28;
+  color: #fff;
 }

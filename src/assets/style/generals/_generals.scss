@@ -1,5 +1,113 @@
 html,
 body {
-    background: inherit;
-    font-family: "Poppins", sans-serif;
+  background: inherit;
+  background-color: $lactic;
+  font-family: "Poppins", sans-serif;
+}
+
+.darkBlue {
+  background-color: $darkBlue;
+}
+
+.green {
+  background-color: $green;
+}
+
+.orange {
+  background-color: $orange;
+}
+
+.none {
+  display: none;
+}
+
+.padding-right {
+  padding-right: 55px;
+}
+
+.padding-default {
+  padding-right: 0px;
+}
+
+.large-title {
+  font-size: 36px;
+  color: $darkBlue;
+  font-weight: 700;
+  line-height: 54px;
+}
+
+.small-title {
+  font-size: 24px;
+  color: $darkBlue;
+  font-weight: 700;
+  line-height: 36px;
+}
+
+.green-link {
+  color: $green;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.home-page {
+  display: flex;
+  justify-content: space-between;
+
+  &__right-content {
+    max-width: 450px;
+    width: 100%;
+  }
+}
+
+.green-small_text {
+  font-weight: 600;
+  font-size: 14px;
+  color: $green;
+}
+
+.calendar {
+  width: 450px;
+  height: 373px;
+  border-radius: 16px;
+  background-color: $lightGreen;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-pagination
+  .ant-pagination-item-active {
+  border-color: $green;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-pagination
+  .ant-pagination-item
+  a {
+  background-color: $lightGreen;
+  color: $green;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-pagination
+  .ant-pagination-item-active
+  a {
+  color: $white;
+  background-color: $green;
+  border-radius: 4px;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-pagination
+  .ant-pagination-item-active
+  a:hover {
+  color: $white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $green;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #6ca023;
 }
