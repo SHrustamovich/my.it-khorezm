@@ -51,10 +51,9 @@ const HomePage = () => {
             />
           </div>
 
-          <LargeTitle
-            className="new-course__title"
-            text="Yangi ochiladigan kurslarga ro'yxatdan o'tish"
-          />
+          <div className="new-course__title">
+            <LargeTitle text="Yangi ochiladigan kurslarga ro'yxatdan o'tish" />
+          </div>
 
           <div className="new-course">
             <div className="new-course__inner">
