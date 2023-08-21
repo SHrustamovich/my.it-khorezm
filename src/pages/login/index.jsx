@@ -1,5 +1,6 @@
 import LoginForm from "./companents/form-label";
-import LoginImg from "../../assets/images/login logo.png"
+import { login_logo } from "@/assets/images";
+
 const LoginPage = () => {
     return (
         <div className='login'>
@@ -7,7 +8,7 @@ const LoginPage = () => {
                 <LoginForm />
             </div>
             <div className="login__img">
-                <img src={LoginImg} alt="" />
+                <img src={login_logo} alt="" />
             </div>
         </div>
     );

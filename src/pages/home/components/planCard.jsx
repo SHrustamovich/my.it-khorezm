@@ -1,8 +1,8 @@
 import React from "react";
 import { Avatar } from "antd";
 import { planData } from "@/utils/data";
-import { avatarImg } from "@/assets/images";
 import { GrayCalendarIcon, GrayClockIcon } from "@/assets/icons";
+import { avatarImg } from "@/assets/images";
 
 const PlanCard = () => {
   return (

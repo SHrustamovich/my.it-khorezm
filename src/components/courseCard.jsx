@@ -13,7 +13,7 @@ function CourseCard({
   time,
   teacher,
   teacherImg,
-  bgSvg,
+  bgImg,
   extant,
   progress,
 }) {
@@ -21,7 +21,9 @@ function CourseCard({
     <div
       className={progress >= 100 ? "course-card darkBlue" : "course-card"}>
       <div className={extant == "none" ? "padding-right" : "padding-default"}>
-        <span className="course-card__bgImg">{bgSvg}</span>
+        <span className="course-card__bgImg">
+          <img src={bgImg} alt="" />
+        </span>
 
         <div className="course-card__title">
           <p>{title}</p>

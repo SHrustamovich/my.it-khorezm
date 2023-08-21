@@ -3,7 +3,7 @@ import {
     BookIcon,
     CalendarIcon,
     HomePageIcon,
-    InstructorsIcon,
+    InstructorIcon,
     PaymentIcon,
     ProfileIcon,
   } from "@/assets/icons";
@@ -29,7 +29,7 @@ import {
     },
     {
       id: 3,
-      icon: <InstructorsIcon />,
+      icon: <InstructorIcon />,
       label: "Instruktorlar",
       path: "/instuctors",
     },

@@ -7,8 +7,9 @@ import CourseCard from "@/components/courseCard";
 import PractiseCard from "./components/practiseCard";
 import SmallTitle from "@/components/smallTitle";
 import PlanCard from "./components/planCard";
-import { AddSign, BgCode, CourseCardBg } from "@/assets/icons";
-import { avatarImg } from "@/assets/images";
+import { AddSign } from "@/assets/icons";
+import { avatarImg, bgCode, courseCardBg } from "@/assets/images";
+
 
 const HomePage = () => {
   return (
@@ -37,7 +38,7 @@ const HomePage = () => {
               date="Yanvar 17, 2021"
               time="09.00 - 10.00"
               teacherImg={avatarImg}
-              bgSvg={<CourseCardBg />}
+              bgImg={courseCardBg}
             />
 
             <CourseCard
@@ -47,7 +48,7 @@ const HomePage = () => {
               date="Yanvar 17, 2021"
               time="09.00 - 10.00"
               teacherImg={avatarImg}
-              bgSvg={<CourseCardBg />}
+              bgImg={courseCardBg}
             />
           </div>
 
@@ -63,7 +64,7 @@ const HomePage = () => {
                 date="Yanvar 17, 2021"
                 time="09.00 - 10.00"
                 teacherImg={avatarImg}
-                bgSvg={<CourseCardBg />}
+                bgImg={courseCardBg}
                 extant="none"
               />
               <CourseCard
@@ -72,7 +73,7 @@ const HomePage = () => {
                 date="Yanvar 17, 2021"
                 time="09.00 - 10.00"
                 teacherImg={avatarImg}
-                bgSvg={<BgCode />}
+                bgImg={bgCode}
                 extant="none"
               />
             </div>

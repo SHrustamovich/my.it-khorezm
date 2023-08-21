@@ -6,8 +6,8 @@ import SmallTitle from "@/components/smallTitle";
 import GreenLink from "@/components/greenLink";
 import PostingCard from "./components/postingCard";
 import CourseCard from "@/components/courseCard";
-import { ArrowIcon, CourseCardBg } from "@/assets/icons";
-import { avatarImg } from "@/assets/images";
+import { ArrowIcon } from "@/assets/icons";
+import { avatarImg, courseCardBg } from "@/assets/images";
 
 function CoursesPage() {
   return (
@@ -35,7 +35,7 @@ function CoursesPage() {
           date="Yanvar 17, 2021"
           time="09.00 - 10.00"
           teacherImg={avatarImg}
-          bgSvg={<CourseCardBg />}
+          bgImg={courseCardBg}
         />
         <CourseCard
           title="Web va grafik dizayn"
@@ -44,7 +44,7 @@ function CoursesPage() {
           date="Yanvar 17, 2021"
           time="09.00 - 10.00"
           teacherImg={avatarImg}
-          bgSvg={<CourseCardBg />}
+          bgImg={courseCardBg}
         />
         <CourseCard
           title="Web va grafik dizayn"
@@ -53,7 +53,7 @@ function CoursesPage() {
           date="Yanvar 17, 2021"
           time="09.00 - 10.00"
           teacherImg={avatarImg}
-          bgSvg={<CourseCardBg />}
+          bgImg={courseCardBg}
         />
       </div>
 
