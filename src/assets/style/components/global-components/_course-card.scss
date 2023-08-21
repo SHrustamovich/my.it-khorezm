@@ -1,0 +1,127 @@
+.course-card {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  border-radius: 16px;
+  max-width: 480px;
+  width: 100%;
+  padding: 20px 26px 22px 26px;
+  background-color: $green;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__bgImg {
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+  }
+
+  &__title {
+    font-size: 24px;
+    color: $darkBlue;
+    font-weight: 600;
+    line-height: 36px;
+    border-radius: 10px;
+    padding-inline: 13px;
+    max-width: max-content;
+    background-color: $white;
+  }
+
+  &__info {
+    display: flex;
+    gap: 56px;
+    margin-block: 20px 26px;
+
+    &-date,
+    &-teacher {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      color: $white;
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 27px;
+    }
+  }
+
+  &__informant {
+    display: flex;
+    justify-content: space-between;
+    margin-block: 12px 10px;
+    color: $white;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 21px;
+
+    &-text {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+
+  &__lgtitle {
+    margin-block: 68px 47px;
+  
+    &-link {
+      color: $green;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: 27px;
+    }
+  }
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-progress-line {
+  margin-bottom: 0px;
+  margin-inline-end: 0px;
+}
+:where(.css-dev-only-do-not-override-byeoj0).ant-progress .ant-progress-bg {
+  border-radius: 5px;
+  background-color: $green;
+}
+
+:where(.css-dev-only-do-not-override-byeoj0).ant-progress .ant-progress-inner {
+  border-radius: 5px;
+  background-color: $white;
+  border: 1px solid $white;
+}
+
+:where(
+    .css-dev-only-do-not-override-byeoj0
+  ).ant-progress.ant-progress-status-success
+  .ant-progress-bg {
+  background-color: $darkBlue;
+}
+
+//end
+
+.new-course {
+  display: flex;
+  align-items: center;
+
+  &__inner {
+    display: flex;
+    gap: 40px;
+  }
+
+  &__title {
+    margin-block: 42px 24px;
+  }
+
+  &__btn {
+    padding: 18px;
+    border-radius: 16px;
+    max-width: max-content;
+    background-color: $white;
+    transform: translateX(-20px);
+    box-shadow: -8px 3px 30px 0px rgba(55, 69, 87, 0.4);
+  }
+}
+
+.courses-cards_mblock {
+  margin-block: 32px 56px;
+}
