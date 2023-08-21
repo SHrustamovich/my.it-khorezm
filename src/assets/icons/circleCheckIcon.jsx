@@ -1,4 +1,4 @@
-const circleCheckIcon = (props) => (
+const CircleCheckIcon = (props) => (
   <svg
     width={19}
     height={18}
@@ -31,4 +31,4 @@ const circleCheckIcon = (props) => (
     </defs>
   </svg>
 )
-export default circleCheckIcon;
+export default CircleCheckIcon;

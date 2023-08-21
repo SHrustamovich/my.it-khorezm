@@ -1,4 +1,4 @@
-const bgLampIcon = (props) => (
+const BgLampIcon = (props) => (
   <svg
     width={130}
     height={215}
@@ -20,4 +20,4 @@ const bgLampIcon = (props) => (
     </defs>
   </svg>
 )
-export default bgLampIcon;
+export default BgLampIcon;

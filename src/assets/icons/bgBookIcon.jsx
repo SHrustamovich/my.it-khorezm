@@ -1,4 +1,4 @@
-const bgBookIcon = (props) => (
+const BgBookIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={78}
@@ -13,4 +13,4 @@ const bgBookIcon = (props) => (
     />
   </svg>
 );
-export default bgBookIcon;
+export default BgBookIcon;

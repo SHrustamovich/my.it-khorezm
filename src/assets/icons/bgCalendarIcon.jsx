@@ -1,4 +1,4 @@
-const bgCalendarIcon = (props) => (
+const BgCalendarIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={83}
@@ -13,4 +13,4 @@ const bgCalendarIcon = (props) => (
     />
   </svg>
 )
-export default bgCalendarIcon
+export default BgCalendarIcon

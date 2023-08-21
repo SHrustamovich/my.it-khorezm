@@ -1,4 +1,4 @@
-const addSign = (props) => (
+const AddSign = (props) => (
   <svg
     width={24}
     height={24}
@@ -20,4 +20,4 @@ const addSign = (props) => (
     </defs>
   </svg>
 )
-export default addSign;
+export default AddSign;

@@ -1,4 +1,4 @@
-const bgCircleIcon = (props) => (
+const BgCircleIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={168}
@@ -13,4 +13,4 @@ const bgCircleIcon = (props) => (
     />
   </svg>
 )
-export default bgCircleIcon;
+export default BgCircleIcon;

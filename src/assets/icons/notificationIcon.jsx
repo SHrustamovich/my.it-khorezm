@@ -1,4 +1,4 @@
-const notificationIcon = (props) => (
+const NotificationIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -21,4 +21,4 @@ const notificationIcon = (props) => (
     </defs>
   </svg>
 );
-export default notificationIcon;
+export default NotificationIcon;

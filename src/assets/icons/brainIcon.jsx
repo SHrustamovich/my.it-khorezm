@@ -1,4 +1,4 @@
-const brainIcon = (props) => (
+const BrainIcon = (props) => (
   <svg
     width={48}
     height={48}
@@ -41,4 +41,4 @@ const brainIcon = (props) => (
     </defs>
   </svg>
 )
-export default brainIcon
+export default BrainIcon

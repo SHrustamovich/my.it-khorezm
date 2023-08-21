@@ -1,4 +1,4 @@
-const calendarIcon = (props) => (
+const CalendarIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -13,4 +13,4 @@ const calendarIcon = (props) => (
     />
   </svg>
 );
-export default calendarIcon;
+export default CalendarIcon;

@@ -8,21 +8,13 @@ import {
 } from "@/assets/icons";
 
 function CourseCard({
-  // eslint-disable-next-line react/prop-types
   title,
-  // eslint-disable-next-line react/prop-types
   date,
-  // eslint-disable-next-line react/prop-types
   time,
-  // eslint-disable-next-line react/prop-types
   teacher,
-  // eslint-disable-next-line react/prop-types
   teacherImg,
-  // eslint-disable-next-line react/prop-types
   bgSvg,
-  // eslint-disable-next-line react/prop-types
   extant,
-  // eslint-disable-next-line react/prop-types
   progress,
 }) {
   return (

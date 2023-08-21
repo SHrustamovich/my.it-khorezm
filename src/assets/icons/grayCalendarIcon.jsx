@@ -1,4 +1,4 @@
-const grayCalendarIcon = (props) => (
+const GrayCalendarIcon = (props) => (
   <svg
     width={16}
     height={17}
@@ -13,4 +13,4 @@ const grayCalendarIcon = (props) => (
     />
   </svg>
 )
-export default grayCalendarIcon;
+export default GrayCalendarIcon;

@@ -1,4 +1,4 @@
-const activityIcon = (props) => (
+const ActivityIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -13,4 +13,4 @@ const activityIcon = (props) => (
     />
   </svg>
 );
-export default activityIcon;
+export default ActivityIcon;

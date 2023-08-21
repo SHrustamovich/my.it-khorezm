@@ -1,4 +1,4 @@
-const profileImage = (props) => (
+const ProfileImage = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={60}
@@ -15,4 +15,4 @@ const profileImage = (props) => (
     />
   </svg>
 );
-export default profileImage;
+export default ProfileImage;

@@ -1,4 +1,4 @@
-const clockIcon = (props) => (
+const ClockIcon = (props) => (
   <svg
     width={17}
     height={17}
@@ -25,4 +25,4 @@ const clockIcon = (props) => (
     </defs>
   </svg>
 )
-export default clockIcon;
+export default ClockIcon;

@@ -14,7 +14,7 @@ const PractiseCard = () => {
             <Progress
               showInfo={false}
               strokeColor="#FEC64F"
-              strokeWidth={16}
+              size={16}
               percent={el.progressOne}
               className="practise-card__progress"
             />
@@ -29,7 +29,7 @@ const PractiseCard = () => {
             <Progress
               showInfo={false}
               strokeColor="#7DBA28"
-              strokeWidth={16}
+              size={16}
               percent={el.progressTwo}
               className="practise-card__progress"
             />

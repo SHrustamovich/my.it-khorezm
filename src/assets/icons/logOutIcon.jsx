@@ -1,4 +1,4 @@
-const logOutIcon = (props) => (
+const LogOutIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={15}
@@ -13,4 +13,4 @@ const logOutIcon = (props) => (
     />
   </svg>
 );
-export default logOutIcon;
+export default LogOutIcon;

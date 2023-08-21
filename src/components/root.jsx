@@ -1,5 +1,4 @@
-// eslint-disable-next-line no-unused-vars
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { routes } from "../constants/routes";
 import Header from "./header";
 import Menu from "./menu";

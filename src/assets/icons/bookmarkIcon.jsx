@@ -1,4 +1,4 @@
-const bookmarkIcon = (props) => (
+const BookmarkIcon = (props) => (
   <svg
     width={40}
     height={40}
@@ -25,4 +25,4 @@ const bookmarkIcon = (props) => (
   </svg>
 )
 
-export default bookmarkIcon;
+export default BookmarkIcon;

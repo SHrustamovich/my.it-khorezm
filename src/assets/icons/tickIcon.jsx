@@ -1,4 +1,4 @@
-const tickIcon = (props) => (
+const TickIcon = (props) => (
   <svg
     width={40}
     height={40}
@@ -20,4 +20,4 @@ const tickIcon = (props) => (
     </defs>
   </svg>
 )
-export default tickIcon;
+export default TickIcon;

@@ -1,4 +1,4 @@
-const paymentIcon = (props) => (
+const PaymentIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -21,4 +21,4 @@ const paymentIcon = (props) => (
     />
   </svg>
 );
-export default paymentIcon;
+export default PaymentIcon;

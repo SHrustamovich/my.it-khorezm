@@ -1,5 +1,5 @@
 // eslint-disable-next-line react/prop-types
-const homePageIcon = ({ props }) => (
+const HomePageIcon = ({ props }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -14,4 +14,4 @@ const homePageIcon = ({ props }) => (
     />
   </svg>
 );
-export default homePageIcon;
+export default HomePageIcon;

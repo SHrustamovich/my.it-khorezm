@@ -1,4 +1,4 @@
-const retryIcon = (props) => (
+const RetryIcon = (props) => (
   <svg
     width={19}
     height={18}
@@ -21,4 +21,4 @@ const retryIcon = (props) => (
     />
   </svg>
 )
-export default retryIcon;
+export default RetryIcon;

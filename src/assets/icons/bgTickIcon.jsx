@@ -1,4 +1,4 @@
-const bgTickIcon = (props) => (
+const BgTickIcon = (props) => (
   <svg
     width={162}
     height={215}
@@ -21,4 +21,4 @@ const bgTickIcon = (props) => (
   </svg>
 );
 
-export default bgTickIcon;
+export default BgTickIcon;

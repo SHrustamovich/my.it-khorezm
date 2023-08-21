@@ -1,4 +1,4 @@
-const bgBookmarkIcon = (props) => (
+const BgBookmarkIcon = (props) => (
   <svg
     width={135}
     height={215}
@@ -24,4 +24,4 @@ const bgBookmarkIcon = (props) => (
     </defs>
   </svg>
 )
-export default bgBookmarkIcon;
+export default BgBookmarkIcon;

@@ -1,4 +1,4 @@
-const dropdownProfileIcon = (props) => (
+const DropdownProfileIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={15}
@@ -13,4 +13,4 @@ const dropdownProfileIcon = (props) => (
     />
   </svg>
 );
-export default dropdownProfileIcon;
+export default DropdownProfileIcon;

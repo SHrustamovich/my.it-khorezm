@@ -1,4 +1,4 @@
-const lampIcon = (props) => (
+const LampIcon = (props) => (
   <svg
     width={40}
     height={40}
@@ -20,4 +20,4 @@ const lampIcon = (props) => (
     </defs>
   </svg>
 )
-export default lampIcon;
+export default LampIcon;

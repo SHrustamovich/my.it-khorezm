@@ -1,4 +1,4 @@
-const grayClockIcon = (props) => (
+const GrayClockIcon = (props) => (
   <svg
     width={16}
     height={17}
@@ -25,4 +25,4 @@ const grayClockIcon = (props) => (
     </defs>
   </svg>
 )
-export default grayClockIcon;
+export default GrayClockIcon;

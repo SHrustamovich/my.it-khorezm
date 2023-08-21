@@ -1,4 +1,4 @@
-const profileIcon = (props) => (
+const ProfileIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={32}
@@ -13,4 +13,4 @@ const profileIcon = (props) => (
     />
   </svg>
 );
-export default profileIcon;
+export default ProfileIcon;

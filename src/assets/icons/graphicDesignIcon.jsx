@@ -1,4 +1,4 @@
-const graphicDesignIcon = (props) => (
+const GraphicDesignIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width={48}
@@ -105,4 +105,4 @@ const graphicDesignIcon = (props) => (
     </defs>
   </svg>
 );
-export default graphicDesignIcon;
+export default GraphicDesignIcon;

@@ -1,4 +1,4 @@
-const microscopeIcon = (props) => (
+const MicroscopeIcon = (props) => (
   <svg
     width={48}
     height={48}
@@ -101,4 +101,4 @@ const microscopeIcon = (props) => (
     </defs>
   </svg>
 )
-export default microscopeIcon
+export default MicroscopeIcon
