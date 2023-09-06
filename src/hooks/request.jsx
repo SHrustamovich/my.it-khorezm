@@ -1,21 +1,13 @@
+import { $authHost } from '@/utils/http'
 import { message } from 'antd'
 import { useEffect, useState } from 'react'
-import { $authHost } from '../http'
 
 export function usePostRequest(options = {}) {
 	return useRequest({ method: 'POST', ...options })
 }
 
-export function usePutRequest(options = {}) {
-	return useRequest({ method: 'PUT', ...options })
-}
-
 export function useGetRequest(options = {}) {
 	return useRequest({ method: 'GET', ...options })
-}
-
-export function useDeleteRequest(options = {}) {
-	return useRequest({ method: 'DELETE', ...options })
 }
 
 export function useRequest(options = {}) {
