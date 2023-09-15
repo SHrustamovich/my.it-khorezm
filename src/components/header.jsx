@@ -15,12 +15,20 @@ const items = [
   {
     key: "1",
     icon: <DropdownProfileIcon />,
-    label: <NavLink to="/profile">Profil</NavLink>,
+    label: (
+      <NavLink to="/profile">
+        <span className="header__dropdown_label">Profil</span>
+      </NavLink>
+    ),
   },
   {
     key: "2",
     icon: <LogOutIcon />,
-    label: <NavLink to="/">Chiqish</NavLink>,
+    label: (
+      <NavLink to="/">
+        <span className="danger-label">Chiqish</span>
+      </NavLink>
+    ),
   },
 ];
 

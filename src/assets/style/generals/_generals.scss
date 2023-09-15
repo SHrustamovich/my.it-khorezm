@@ -4,6 +4,12 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.container {
+  max-width: 1485px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .darkBlue {
   background-color: $darkBlue;
 }
