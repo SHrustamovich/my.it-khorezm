@@ -17,7 +17,8 @@ const Menu = () => {
             <div
               className={clsx(
                 "wrapper-menu_list__link",
-                location.pathname == item.path && "active"
+                location.pathname == item.path && "active",
+                item.visible && "hidden"
               )}
             >
               {item.icon}
