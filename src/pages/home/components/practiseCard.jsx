@@ -2,6 +2,7 @@ import React from "react";
 import { Progress } from "antd";
 import { practiseData } from "@/utils/data";
 import SmallTitle from "@/components/smallTitle";
+import DetailedBtn from "@/components/detailedBtn";
 
 const PractiseCard = () => {
   return (
@@ -40,6 +41,8 @@ const PractiseCard = () => {
                 {el.progressTwo / 10}/10
               </p>
             </div>
+            
+            <DetailedBtn link="/my-courses"/>
           </div>
         );
       })}

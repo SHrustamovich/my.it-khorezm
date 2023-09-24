@@ -1,14 +1,14 @@
 .practise-card {
   display: flex;
-  gap: 10px;
+  gap: 14px;
   flex-direction: column;
   border-radius: 16px;
   margin-block: 40px 58px;
   background-color: $white;
-  padding: 32px 32px 56px 32px;
+  padding: 32px 32px 15px 32px;
 
   &__progress {
-    margin-top: 22px;
+    margin-top: 18px;
   }
 
   &__info {

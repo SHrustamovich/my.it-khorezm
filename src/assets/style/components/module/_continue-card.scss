@@ -1,0 +1,64 @@
+.continue-card {
+  padding: 30px 42px;
+  max-width: max-content;
+  display: flex;
+  gap: 47px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background: $white;
+  box-shadow: 5px 5px 15px 0px rgba(120, 120, 120, 0.1);
+  font-family: "Poppins";
+
+  &__main {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  &__num {
+    position: relative;
+    color: #909090;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  &__num {
+    position: relative;
+    color: #909090;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  
+  &__title {
+    color: #374557;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  &__count {
+    color: #374557;
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  &__progress {
+    & > div {
+      & > div {
+        width: 154px !important;
+        background-color: #d9d9d9 !important;
+        border-radius: 10px !important;
+
+        & > div {
+          border-radius: 10px !important;
+        }
+      }
+    }
+
+    &-wrapper {
+      display: flex;
+      gap: 4px;
+      flex-direction: column;
+      margin-inline: 30px 10px;
+    }
+  }
+}

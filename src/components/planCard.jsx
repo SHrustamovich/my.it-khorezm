@@ -1,15 +1,26 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Avatar } from "antd";
 import { planData } from "@/utils/data";
 import { avatarImg } from "@/assets/images";
 import { GrayCalendarIcon, GrayClockIcon } from "@/assets/icons";
 
 const PlanCard = () => {
+  const [border, setBorder] = useState([]);
+
+  useEffect(() => {
+    const randomColors = [
+      "plan-card border-yellow",
+      "plan-card border-green",
+      "plan-card border-dark__blue",
+    ].sort(() => 0.5 - Math.random());
+    setBorder(randomColors);
+  }, []);
+
   return (
     <React.Fragment>
       {planData.map((el) => {
         return (
-          <div className="plan-card" key={el.id}>
+          <div className={border[el.id % border.length]} key={el.id}>
             <h1 className="plan-card__title">{el.title}</h1>
 
             <div className="plan-card__info">

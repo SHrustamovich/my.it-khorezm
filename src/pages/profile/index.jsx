@@ -1,7 +1,7 @@
-import React from "react";
+import Chart from "./components/chart";
 
 function Profile() {
-  return <div>Profile</div>;
+  return <Chart />;
 }
 
 export default Profile;

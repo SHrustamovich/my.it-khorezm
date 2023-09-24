@@ -1,4 +1,3 @@
-import React from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
 import clsx from "clsx";
 import { menuData } from "@/constants/menuSide";
@@ -17,7 +16,8 @@ const Menu = () => {
             <div
               className={clsx(
                 "wrapper-menu_list__link",
-                location.pathname == item.path && "active"
+                location.pathname == item.path && "active",
+                item.visible && "hidden"
               )}
             >
               {item.icon}

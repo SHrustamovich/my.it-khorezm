@@ -1,4 +1,14 @@
-import { BgBookmarkIcon, BgLampIcon, BgTickIcon, BookmarkIcon, BrainIcon, CodingIcon, GraphicDesignIcon, LampIcon, MicroscopeIcon, TickIcon } from "@/assets/icons";
+import {
+  BgBookmarkIcon,
+  BgLampIcon,
+  BgTickIcon,
+  BookmarkIcon,
+  CourseCardBg,
+  GreenPentulIcon,
+  LampIcon,
+  TickIcon,
+} from "@/assets/icons";
+import { avatarImg } from "@/assets/images";
 
 export const planData = [
   {
@@ -59,59 +69,67 @@ export const practiseData = [
     progressOne: 70,
     courseNameTwo: "Grafik Dizayn",
     progressTwo: 40,
+  },
+];
+
+export const courseInfo = [
+  {
+    id: 0,
+    title: "Web va grafik dizayn",
+    bgSvg: <CourseCardBg />,
+    date: "Yanvar 17, 2021",
+    time: "09.00 - 10.00",
+    teacher: "Humoyun Madraximov",
+    teacherImg: avatarImg,
+    progress: 10,
+  },
+  {
+    id: 1,
+    title: "Web va grafik dizayn",
+    bgSvg: <CourseCardBg />,
+    date: "Yanvar 17, 2021",
+    time: "09.00 - 10.00",
+    teacher: "Humoyun Madraximov",
+    teacherImg: avatarImg,
+    progress: 30,
   }
-]
+];
 
-export const postingData = [
+export const crudInfo = [
   {
     id: 0,
-    image: <GraphicDesignIcon />,
-    title: "Grafik Dizayn",
-    text: "Lorem ipsum dolor sit amet",
+    title: "Web va grafik dizayn",
+    bgSvg: <CourseCardBg />,
+    date: "Yanvar 17, 2021",
+    time: "09.00 - 10.00",
+    teacher: "Humoyun Madraximov",
+    teacherImg: avatarImg,
+    progress: 100,
   },
   {
     id: 1,
-    image: <CodingIcon />,
-    title: "Dasturlash",
-    text: "Lorem ipsum dolor sit amet",
-  },
-  {
-    id: 2,
-    image: <BrainIcon />,
-    title: "Yumshoq Ko’nikmalar",
-    text: "Lorem ipsum dolor sit amet",
-  },
-  {
-    id: 3,
-    image: <MicroscopeIcon />,
-    title: "Fan",
-    text: "Lorem ipsum dolor sit amet",
+    title: "Web va grafik dizayn",
+    bgSvg: <CourseCardBg />,
+    date: "Yanvar 17, 2021",
+    time: "09.00 - 10.00",
+    teacher: "Humoyun Madraximov",
+    teacherImg: avatarImg,
+    progress: 100,
   },
 ];
 
-export const saleData = [
+export const payInfo = [
   {
     id: 0,
-    title: "Fullstack Developer",
-    price: "50.99",
-    teacher: "Samantha William • 5.0",
-    content: "110+ Content",
-    link: "View Details",
+    title: "Web va grafik dizayn",
+    img: <GreenPentulIcon />,
+    price: "400 000 so’m /oy",
   },
   {
     id: 1,
-    title: "UI Design Beginner",
-    price: "50.99",
-    teacher: "Karen Hope • 5.0",
-    content: "110+ Content",
-    link: "View Details",
-  },
-  {
-    id: 2,
-    title: "How to be Freelancer",
-    price: "50.99",
-    teacher: "Jack and Sally • 5.0",
-    content: "110+ Content",
-    link: "View Details",
+    title: "SMM",
+    img: <GreenPentulIcon />,
+    price: "400 000 so’m /oy",
   },
 ];
+

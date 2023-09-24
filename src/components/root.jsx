@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { routes } from "../constants/routes";
 import Header from "./header";
 import Menu from "./menu";
+import LoginPage from "@/pages/login";
+import clsx from "clsx";
 
 const Root = () => {
-  return (
+  const [user, setUser] = useState(true);
+
+  return user ? (
     <div className="wrapper">
       <div>
         <Menu />
@@ -13,14 +17,23 @@ const Root = () => {
       <div className="wrapper-content">
         <Header />
         <div className="wrapper-content_inside">
-          <Routes>
-            {routes.map((el) => (
-              <Route key={el.path} path={el.path} element={el.components} />
-            ))}
-          </Routes>
+          <div className="container">
+            <Routes>
+              {routes.map((el) => (
+                <Route
+                  key={el.path}
+                  path={el.path}
+                  element={el.components}
+                  className={clsx(`${!el.visible && "hidden"}`)}
+                />
+              ))}
+            </Routes>
+          </div>
         </div>
       </div>
     </div>
+  ) : (
+    <LoginPage />
   );
 };
 

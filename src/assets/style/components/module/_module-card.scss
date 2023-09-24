@@ -1,0 +1,78 @@
+.modul-card,
+.modul-card__progress,
+.modul-card__lock {
+  max-width: 710px;
+  width: 100%;
+  background-color: $white;
+  padding-block: 27px;
+  padding-inline: 40px;
+  border-radius: 20px;
+  border: 1px solid $gray;
+  box-shadow: 5px 6px 40px 0px rgba(159, 159, 159, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  font-family: "Poppins";
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  &__title {
+    color: $darkBlue;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    color: #374557;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  &__text {
+    color: $deepPurple;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  &__content {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+
+  &__img {
+    pointer-events: none;
+  }
+}
+
+.modul-card__progress {
+  outline: 3px $green solid;
+  outline-offset: 5px;
+}
+
+.modul-card__lock {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  background-color: $gray;
+  border: none;
+}
+
+.modul__wrapper {
+  display: flex;
+  align-items: start;
+  gap: 178px;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

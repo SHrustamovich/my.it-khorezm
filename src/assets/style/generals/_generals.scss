@@ -4,28 +4,46 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.darkBlue {
+.container {
+  max-width: 1485px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.border-yellow {
+  border-left: 17px solid $orange;
+}
+
+.border-dark__blue {
+  border-left: 17px solid $darkBlue;
+}
+
+.border-green {
+  border-left: 17px solid $green;
+}
+
+.background-dark__blue {
   background-color: $darkBlue;
 }
 
-.green {
+.background-green {
   background-color: $green;
 }
 
-.orange {
+.background-orange {
   background-color: $orange;
 }
 
-.none {
-  display: none;
+.color-dark__blue {
+  color: $darkBlue;
 }
 
-.padding-right {
-  padding-right: 55px;
+.color-green {
+  color: $green;
 }
 
-.padding-default {
-  padding-right: 0px;
+.color-orange {
+  color: $orange;
 }
 
 .large-title {
@@ -42,34 +60,16 @@ body {
   line-height: 36px;
 }
 
-.green-link {
-  color: $green;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 27px;
-}
-
-.home-page {
+.page-wrapper {
   display: flex;
   justify-content: space-between;
-
-  &__right-content {
-    max-width: 450px;
-    width: 100%;
-  }
+  gap: 40px;
 }
 
 .green-small_text {
   font-weight: 600;
   font-size: 14px;
   color: $green;
-}
-
-.calendar {
-  width: 450px;
-  height: 373px;
-  border-radius: 16px;
-  background-color: $lightGreen;
 }
 
 :where(.css-dev-only-do-not-override-byeoj0).ant-pagination

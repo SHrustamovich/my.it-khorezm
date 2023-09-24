@@ -15,12 +15,20 @@ const items = [
   {
     key: "1",
     icon: <DropdownProfileIcon />,
-    label: <NavLink to="/profile">Profil</NavLink>,
+    label: (
+      <NavLink to="/profile">
+        <span className="header__dropdown_label">Profil</span>
+      </NavLink>
+    ),
   },
   {
     key: "2",
     icon: <LogOutIcon />,
-    label: <NavLink to="/">Chiqish</NavLink>,
+    label: (
+      <NavLink to="/">
+        <span className="danger-label">Chiqish</span>
+      </NavLink>
+    ),
   },
 ];
 
@@ -34,22 +42,28 @@ const Header = () => {
         setHeaderTitle("Bosh sahifa");
         break;
       case "/my-courses":
-        setHeaderTitle("Mening kurslarim");
+        setHeaderTitle("Kurslar");
+        break;
+      case "/lessons":
+        setHeaderTitle("Kurslar");
+        break;
+      case "/modules":
+        setHeaderTitle("Testlar");
+        break;
+      case "/test":
+        setHeaderTitle("Testlar");
         break;
       case "/lesson-table":
         setHeaderTitle("Dars jadvali");
         break;
       case "/instuctors":
-        setHeaderTitle("Instruktorlar");
+        setHeaderTitle("O'qtuvchilar");
         break;
       case "/profile":
         setHeaderTitle("Profil");
         break;
       case "/my-payments":
         setHeaderTitle("Mening to'lovlarim");
-        break;
-      case "/activity":
-        setHeaderTitle("Faoliyat");
         break;
       default:
         break;
@@ -64,6 +78,7 @@ const Header = () => {
         <NotificationIcon />
         <SettingIcon />
         <Dropdown
+          className="drop"
           menu={{
             items,
           }}
