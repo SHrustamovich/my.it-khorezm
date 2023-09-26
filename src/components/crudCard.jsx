@@ -1,16 +1,16 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import { Progress, Avatar } from "antd";
-import { courseInfo } from "@/utils/data";
-import { ClockIcon, RetryIcon, WhiteCalendarIcon } from "@/assets/icons";
+import { CircleCheckIcon, ClockIcon, WhiteCalendarIcon } from "@/assets/icons";
+import React from "react";
+import { crudInfo } from "@/utils/data";
 
-function CourseCard() {
+function CrudCard() {
   return (
     <React.Fragment>
-      {courseInfo.map((el) => {
+      {crudInfo.map((el) => {
         return (
           <Link to="/lessons" key={el.id}>
-            <div className="course-card">
+            <div className="course-card background-dark__blue">
               <span className="course-card__bg-img">{el.bgSvg}</span>
 
               <div className="course-card__main-entry">
@@ -37,11 +37,11 @@ function CourseCard() {
 
               <div className="course-card__informant">
                 <div className="course-card__informant-inner">
-                  <RetryIcon />
-                  <p>Jarayonda</p>
+                  <CircleCheckIcon />
+                  <p>Tugallangan</p>
                 </div>
 
-                <p>{`${el.progress >= 100 ? "10" : el.progress / 10}/10`}</p>
+                <p>{}</p>
               </div>
 
               <div className="course-card__info-teacher">
@@ -56,4 +56,4 @@ function CourseCard() {
   );
 }
 
-export default CourseCard;
+export default CrudCard;

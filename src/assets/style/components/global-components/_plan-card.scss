@@ -3,11 +3,9 @@
   display: flex;
   row-gap: 16px;
   padding: 24px;
-  max-width: 450px;
   border-radius: 16px;
   flex-direction: column;
   background-color: $white;
-  border-left: 17px solid $darkBlue;
 
   &__title {
     font-size: 18px;
@@ -40,24 +38,17 @@
     display: flex;
     row-gap: 24px;
     flex-direction: column;
-    margin-block: 33px 38px;
+    margin-block: 33px 24px;
   }
 
   &__btn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
     font-size: 18px;
     font-weight: 400;
     color: $darkBlue;
-    padding: 17px 160px;
-    border-radius: 16px;
-    max-width: max-content;
-    border: 1px solid $deepPurple;
   }
-}
-
-.plan-card:nth-child(2) {
-  border-left: 17px solid $green;
-}
-
-.plan-card:nth-child(3) {
-  border-left: 17px solid $orange;
 }
