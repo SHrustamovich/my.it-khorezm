@@ -3,6 +3,7 @@ import {
   BgLampIcon,
   BgTickIcon,
   BookmarkIcon,
+  CompletedIcon,
   CourseCardBg,
   GreenPentulIcon,
   LampIcon,
@@ -92,7 +93,7 @@ export const courseInfo = [
     teacher: "Humoyun Madraximov",
     teacherImg: avatarImg,
     progress: 30,
-  }
+  },
 ];
 
 export const crudInfo = [
@@ -133,3 +134,73 @@ export const payInfo = [
   },
 ];
 
+export const moduleData = [
+  {
+    id: 1,
+    module: "1-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "done",
+  },
+  {
+    id: 2,
+    module: "2-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "progress",
+  },
+  {
+    id: 3,
+    module: "3-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "lock",
+  },
+];
+
+export const courseCompleted = [
+  {
+    id: 0,
+    image: <CompletedIcon />,
+    title: "100",
+    text: "Courses Completed",
+  },
+  {
+    id: 1,
+    image: <CompletedIcon />,
+    title: "34",
+    text: "Courses In Progress",
+  },
+];
+
+export const circleProgress = [
+  {
+    id: 0,
+    text: "Class",
+    title: "UI Design Beginner",
+    courses: "Total Courses",
+    progress: 80,
+  },
+  {
+    id: 1,
+    text: "Class",
+    title: "UX Research",
+    courses: "Total Courses",
+    progress: 50,
+    color: "#FEC64F",
+  },
+];
+
+export const profilePart = [
+  {
+    id: 1,
+    name: "Umidbek Jumaniyozov",
+    direction: "Backend developer",
+    icoins: "iCoins",
+    icoinsNum: 2300,
+    certificates: "sertifikatlar",
+    certificatesNum: 50,
+    bio: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+    Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+  },
+];

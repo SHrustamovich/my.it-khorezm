@@ -1,5 +1,4 @@
 import {
-  ActivityIcon,
   BookIcon,
   CalendarIcon,
   HomePageIcon,
@@ -44,11 +43,5 @@ export const menuData = [
     icon: <PaymentIcon />,
     label: "Mening to'lovlarim",
     path: "/my-payments",
-  },
-  {
-    id: 6,
-    icon: <ActivityIcon />,
-    label: "Faoliyat",
-    path: "/activity",
-  },
+  }
 ];

@@ -1,7 +1,5 @@
-import React from "react";
-
-function BigTitle({ text }) {
+function LargeTitle({ text }) {
   return <p className="large-title">{text}</p>;
 }
 
-export default BigTitle;
+export default LargeTitle;

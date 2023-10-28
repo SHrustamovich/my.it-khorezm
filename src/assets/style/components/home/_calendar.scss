@@ -4,7 +4,7 @@
   font-family: "Poppins";
   background-color: #fff;
   border-radius: 16px;
-  padding-block: 32px 25px;
+  padding-block: 32px 10px;
   padding-inline: 62px;
   -webkit-user-select: none;
   -ms-user-select: none;
@@ -55,7 +55,7 @@
     grid-template-columns: repeat(7, 1fr);
     column-gap: 11px;
     row-gap: 7px;
-    margin-bottom: 36px;
+    margin-bottom: 10px;
   }
 
   &-day {
