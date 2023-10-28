@@ -1,8 +1,5 @@
 .accordion {
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-
+  
   &_item {
     margin-block: 16px 10px;
   }
@@ -38,7 +35,6 @@
     background-color: $white;
     border-radius: 16px;
 
-
     &__data {
       color: $darkBlue;
       font-size: 18px;
@@ -67,4 +63,10 @@
       }
     }
   }
+}
+
+.accordion__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }

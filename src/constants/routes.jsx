@@ -4,9 +4,9 @@ import LessonTable from "@/pages/lessonTable";
 import Instructors from "@/pages/instructors";
 import Profile from "@/pages/profile";
 import MyPayments from "@/pages/myPayments";
-import Activity from "@/pages/activity";
 import Lessons from "@/pages/lessons";
 import Modules from "@/pages/modules";
+import Homework from "@/pages/homework";
 
 export const routes = [
   {
@@ -48,5 +48,10 @@ export const routes = [
     id: 7,
     components: <Modules />,
     path: "/modules",
+  },
+  {
+    id: 8,
+    components: <Homework />,
+    path: "/homework",
   },
 ];

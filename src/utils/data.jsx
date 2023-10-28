@@ -134,6 +134,30 @@ export const payInfo = [
   },
 ];
 
+export const moduleData = [
+  {
+    id: 1,
+    module: "1-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "done",
+  },
+  {
+    id: 2,
+    module: "2-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "progress",
+  },
+  {
+    id: 3,
+    module: "3-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "lock",
+  },
+];
+
 export const courseCompleted = [
   {
     id: 0,
@@ -178,29 +202,5 @@ export const profilePart = [
     certificatesNum: 50,
     bio: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
-  },
-];
-
-export const moduleData = [
-  {
-    id: 1,
-    module: "1-Module",
-    text: "Lorem Ipsum is simply dummy text",
-    task: "15 savol",
-    condition: "done",
-  },
-  {
-    id: 2,
-    module: "2-Module",
-    text: "Lorem Ipsum is simply dummy text",
-    task: "15 savol",
-    condition: "progress",
-  },
-  {
-    id: 3,
-    module: "3-Module",
-    text: "Lorem Ipsum is simply dummy text",
-    task: "15 savol",
-    condition: "lock",
   },
 ];
