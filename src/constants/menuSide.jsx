@@ -45,10 +45,4 @@ export const menuData = [
     label: "Mening to'lovlarim",
     path: "/my-payments",
   },
-  {
-    id: 6,
-    icon: <ActivityIcon />,
-    label: "Faoliyat",
-    path: "/activity",
-  },
 ];

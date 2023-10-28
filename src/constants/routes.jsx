@@ -5,6 +5,8 @@ import Instructors from "@/pages/instructors";
 import Profile from "@/pages/profile";
 import MyPayments from "@/pages/myPayments";
 import Activity from "@/pages/activity";
+import Lessons from "@/pages/lessons";
+import Modules from "@/pages/modules";
 
 export const routes = [
   {
@@ -39,7 +41,12 @@ export const routes = [
   },
   {
     id: 6,
-    components: <Activity />,
-    path: "/activity",
+    components: <Lessons />,
+    path: "/lessons",
+  },
+  {
+    id: 7,
+    components: <Modules />,
+    path: "/modules",
   },
 ];
