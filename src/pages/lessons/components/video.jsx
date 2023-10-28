@@ -7,7 +7,7 @@ import Test from "./video/test";
 import { TabLockIcon } from "@/assets/icons";
 
 export function VidStack() {
-  const [lock] = useState(true);
+  const [lock, setLock] = useState(true);
 
   return (
     <div className="video">

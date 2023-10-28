@@ -2,7 +2,6 @@ import { useState } from "react";
 import SmallTitle from "@/components/smallTitle";
 import { WhiteArrowIcon } from "@/assets/icons";
 
-// eslint-disable-next-line react/prop-types
 const Accordion = ({ content,title }) => {
   const [icon, setIcon] = useState(true);
 
