@@ -64,7 +64,7 @@ const WeekCalendar = () => {
       id: 3,
       title: "Web va grafik dizayn",
       time: "18:00",
-      week: "saturday",
+      week: "sunday",
     },
     {
       id: 4,

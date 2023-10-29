@@ -61,3 +61,6 @@ export { default as SmileIcon } from "./smileIcon";
 export { default as BookMediaIcon } from "./bookMediaIcon";
 export { default as GreenPentullIcon } from "./greenPentulIcon";
 export { default as TabLockIcon } from "./tabLockIcon";
+export { default as VideoIcon } from "./videoIcon";
+export { default as PdfIcon } from "./pdfIcon";
+export { default as DownloadIcon } from "./downloadIcon";
