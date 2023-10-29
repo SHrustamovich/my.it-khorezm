@@ -6,7 +6,11 @@ function PayCard() {
   const [trans, setTrans] = useState(8);
   const colors = ["#374557", "#fec64f", "#7dba28"];
   const [scale, setScale] = useState("none");
-  const color = colors[Math.floor(Math.random() * colors.length)];
+  const [color, setColor] = useState("");
+
+  useEffect(() => {
+    setColor(colors[Math.floor(Math.random() * colors.length)]);
+  }, []);
 
   const reRotate = () => {
     if (rotate == 45 && trans == 8 && scale == "none") {

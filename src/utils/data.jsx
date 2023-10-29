@@ -137,6 +137,30 @@ export const payInfo = [
   },
 ];
 
+export const moduleData = [
+  {
+    id: 1,
+    module: "1-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "done",
+  },
+  {
+    id: 2,
+    module: "2-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "progress",
+  },
+  {
+    id: 3,
+    module: "3-Module",
+    text: "Lorem Ipsum is simply dummy text",
+    task: "15 savol",
+    condition: "lock",
+  },
+];
+
 export const courseCompleted = [
   {
     id: 0,

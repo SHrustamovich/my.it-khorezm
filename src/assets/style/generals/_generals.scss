@@ -78,30 +78,10 @@ body {
   color: $green;
 }
 
-:where(.css-dev-only-do-not-override-byeoj0).ant-pagination
-  .ant-pagination-item-active {
-  border-color: $green;
-}
-
-:where(.css-dev-only-do-not-override-byeoj0).ant-pagination
-  .ant-pagination-item
-  a {
-  background-color: $lightGreen;
-  color: $green;
-}
-
-:where(.css-dev-only-do-not-override-byeoj0).ant-pagination
-  .ant-pagination-item-active
-  a {
-  color: $white;
-  background-color: $green;
-  border-radius: 4px;
-}
-
-:where(.css-dev-only-do-not-override-byeoj0).ant-pagination
-  .ant-pagination-item-active
-  a:hover {
-  color: $white;
+.profile__page {
+  width: 100% !important;
+  display: flex;
+  gap: 43px;
 }
 
 ::-webkit-scrollbar {
