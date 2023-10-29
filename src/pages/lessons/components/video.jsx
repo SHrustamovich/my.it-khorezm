@@ -1,10 +1,11 @@
 import { useState } from "react";
 import { Tabs } from "antd";
 import Information from "./video/information";
-import Files from "./video/files";
 import Homework from "./video/homework";
 import Test from "./video/test";
 import { TabLockIcon } from "@/assets/icons";
+import ClosedFiles from "./video/closedFiles";
+import Files from "./video/Files";
 
 export function VidStack() {
   const [lock, setLock] = useState(true);
@@ -32,7 +33,7 @@ export function VidStack() {
             }
             key="tab2"
           >
-            <Files />
+            {lock == true ? <ClosedFiles/> : <Files/>}
           </Tabs>
 
           <Tabs

@@ -1,18 +1,31 @@
-import { BgBookIcon, BgCalendarIcon, BigCrownIcon, CrownIcon } from "@/assets/icons";
+import { DownloadIcon } from "@/assets/icons";
+import { filesInfo } from "@/utils/data";
+import React from "react";
 
-function Files() {
+const Files = () => {
   return (
-    <>
-      <div className="files">
-        <h2 className="files-title">Qo’shimcha funksiyalarni ochish uchun a’zo bo’ling !</h2>
-        <button className="files-btn">A'zo bo'lish</button>
-        <BgBookIcon className="files-book__icon"/>
-        <BgCalendarIcon className="files-calendar__icon"/>
-        <CrownIcon className="files-crown__icon"/>
-        <BigCrownIcon className="files-big__crown-icon"/>
+    <React.Fragment>
+      <div className="group">
+        <h2 className="group__title">Mavzuga doir kerakli fayllarni yuklab olish</h2>
+        <button className="group__btn">
+          3 ta fayl <DownloadIcon />
+        </button>
       </div>
-    </>
+      <div className="files">
+        {filesInfo.map((el) => {
+          return (
+            <div className="files__child" key={el.id}>
+              <div className="files__child-box">
+                <span>{el.icon}</span>
+                <p className="files__child-title">{el.title}</p>
+              </div>
+              <button className="files__child-btn">{el.btn}</button>
+            </div>
+          );
+        })}
+      </div>
+    </React.Fragment>
   );
-}
+};
 
 export default Files;
