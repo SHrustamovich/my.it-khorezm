@@ -59,7 +59,7 @@ const Lessons = () => {
             <Progress
               className="accordion_item"
               showInfo={false}
-              strokeColor="#7DBA28"
+              strokeColor="#166199"
               strokeWidth={16}
               percent={process}
               size={[390, 16]}

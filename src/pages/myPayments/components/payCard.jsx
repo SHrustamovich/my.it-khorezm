@@ -5,7 +5,7 @@ import { useState } from "react";
 function PayCard() {
   const [rotate, setRotate] = useState(45);
   const [trans, setTrans] = useState(8);
-  const colors = ["#374557", "#fec64f", "#7dba28"];
+  const colors = ["#374557", "#fec64f", "#166199"];
   const [scale, setScale] = useState("none");
   const [color, setColor] = useState("");
 

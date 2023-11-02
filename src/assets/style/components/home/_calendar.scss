@@ -2,7 +2,7 @@
   width: 100%;
   margin: 0 auto;
   font-family: "Poppins";
-  background-color: #fff;
+  background-color: $white;
   border-radius: 16px;
   padding-block: 32px 10px;
   padding-inline: 62px;
@@ -16,7 +16,7 @@
     justify-content: space-between;
 
     &__month-year {
-      color: #374557;
+      color: $darkBlue;
       font-size: 24px;
       font-weight: 700;
     }
@@ -45,7 +45,7 @@
     justify-content: space-around;
     gap: 6px;
     margin-block: 16px 12px;
-    color: #a098ae;
+    color: $deepPurple;
     font-size: 18px;
     font-weight: 400;
   }
@@ -65,18 +65,18 @@
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    color: #374557;
+    color: $darkBlue;
     font-size: 18px;
     font-weight: 400;
     cursor: pointer;
 
     &:hover {
-      background-color: #dbdbdb;
+      background-color: $gray;
     }
 
     &.prev-month,
     &.next-month {
-      color: #a098ae;
+      color: $deepPurple;
     }
 
     &.next-month:nth-last-child(1) {
@@ -88,17 +88,17 @@
     }
 
     &.sunday {
-      color: #fc6b57;
+      color: $red;
     }
 
     &.today {
-      background-color: #7dba28;
-      color: #fff;
+      background-color: $green;
+      color: $white;
     }
 
     &.marked {
-      background-color: #7dba28;
-      color: #fff;
+      background-color: $green;
+      color: $white;
       position: relative;
 
       &::after {
@@ -109,8 +109,8 @@
         width: 14px;
         height: 14px;
         border-radius: 50%;
-        border: 2px solid #fff;
-        background-color: #fc6b57;
+        border: 2px solid $white;
+        background-color: $red;
       }
     }
   }
