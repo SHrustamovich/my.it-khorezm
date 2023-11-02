@@ -19,7 +19,7 @@ body {
 }
 
 .border-green {
-  border-left: 17px solid $green;
+  border-left: 17px solid $blue;
 }
 
 .background-dark__blue {
@@ -27,7 +27,7 @@ body {
 }
 
 .background-green {
-  background-color: $green;
+  background-color: $blue;
 }
 
 .background-orange {
@@ -39,7 +39,7 @@ body {
 }
 
 .color-green {
-  color: $green;
+  color: $blue;
 }
 
 .color-orange {
@@ -66,29 +66,52 @@ body {
   gap: 40px;
 }
 
+.profile__page {
+  width: 100% !important;
+  display: flex;
+  gap: 43px;
+}
+
+.profile__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.profile__avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $gray;
+}
+
+.anticon svg {
+  margin: 0;
+}
+
 .green-small_text {
   font-weight: 600;
   font-size: 14px;
-  color: $green;
+  color: $blue;
 }
 
 :where(.css-dev-only-do-not-override-byeoj0).ant-pagination
   .ant-pagination-item-active {
-  border-color: $green;
+  border-color: $blue;
 }
 
 :where(.css-dev-only-do-not-override-byeoj0).ant-pagination
   .ant-pagination-item
   a {
   background-color: $lightGreen;
-  color: $green;
+  color: $blue;
 }
 
 :where(.css-dev-only-do-not-override-byeoj0).ant-pagination
   .ant-pagination-item-active
   a {
   color: $white;
-  background-color: $green;
+  background-color: $blue;
   border-radius: 4px;
 }
 
@@ -103,7 +126,7 @@ body {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: $green;
+  background: $blue;
   border-radius: 10px;
 }
 

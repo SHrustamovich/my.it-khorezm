@@ -8,7 +8,7 @@ const PaginationArrowIcon = (props) => (
     fill="none"
     {...props}
   >
-    <path d="M0.999998 23L14 12.5L1 2" stroke="#7DBA28" strokeWidth={3} />
+    <path d="M0.999998 23L14 12.5L1 2" stroke="#166199" strokeWidth={3} />
   </svg>
 );
 export default PaginationArrowIcon;

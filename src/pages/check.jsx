@@ -7,7 +7,6 @@ import LoginPage from "./login";
 const CheckUser = () => {
   const { user } = useContext(UserContext);
 
-  console.log(user);
   return <>{user ? <Root /> : <LoginPage />}</>;
 };
 

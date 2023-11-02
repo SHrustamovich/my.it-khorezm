@@ -25,9 +25,15 @@ const items = [
     key: "2",
     icon: <LogOutIcon />,
     label: (
-      <NavLink to="/">
-        <span className="danger-label">Chiqish</span>
-      </NavLink>
+      <button
+        className="danger-label"
+        onClick={() => {
+          localStorage.clear();
+          location.reload();
+        }}
+      >
+        Chiqish
+      </button>
     ),
   },
 ];

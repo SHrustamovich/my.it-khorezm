@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { DarkBlueArrowIcon } from "@/assets/icons";
 
-function DetailedBtn({link}) {
+function DetailedBtn({ link }) {
   return (
     <Link to={link}>
       <button className="detailed__btn">

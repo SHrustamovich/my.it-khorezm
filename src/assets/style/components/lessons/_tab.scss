@@ -1,0 +1,58 @@
+.tab {
+  padding-top: 24px;
+
+  &__video {
+    border-radius: 16px;
+  }
+
+  &__title {
+    color: $darkBlue;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 67px;
+  }
+
+  &__menu {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $gray;
+    border-radius: 16px;
+    padding: 20px 24px;
+    color: $darkBlue;
+  }
+
+  &__link.active {
+    background-color: $blue;
+    color: $white;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+.ant-tabs-tab,
+.ant-tabs-tab-btn {
+  color: $deepPurple;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: $blue;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active {
+  color: $blue;
+}
+
+.ant-tabs .ant-tabs-ink-bar {
+  background-color: $blue;
+}

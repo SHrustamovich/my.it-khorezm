@@ -4,7 +4,9 @@ import LessonTable from "@/pages/lessonTable";
 import Instructors from "@/pages/instructors";
 import Profile from "@/pages/profile";
 import MyPayments from "@/pages/myPayments";
-import Activity from "@/pages/activity";
+import Lessons from "@/pages/lessons";
+import Test from "@/pages/tests";
+import Modules from "@/pages/modules";
 
 export const routes = [
   {
@@ -39,7 +41,20 @@ export const routes = [
   },
   {
     id: 6,
-    components: <Activity />,
-    path: "/activity",
+    components: <Lessons />,
+    path: "/lessons",
+    visible: true,
+  },
+  {
+    id: 7,
+    components: <Modules />,
+    path: "/modules",
+    visible: true,
+  },
+  {
+    id: 8,
+    components: <Test />,
+    path: "/test",
+    visible: true,
   },
 ];

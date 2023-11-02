@@ -1,5 +1,4 @@
 import {
-  ActivityIcon,
   BookIcon,
   CalendarIcon,
   HomePageIcon,
@@ -27,28 +26,22 @@ export const menuData = [
     label: "Dars jadvali",
     path: "/lesson-table",
   },
-  {
-    id: 3,
-    icon: <InstructorsIcon />,
-    label: "Instruktorlar",
-    path: "/instuctors",
-  },
+  // {
+  //   id: 3,
+  //   icon: <InstructorsIcon />,
+  //   label: "Instruktorlar",
+  //   path: "/instuctors",
+  // },
   {
     id: 4,
-    icon: <ProfileIcon />,
-    label: "Profil",
-    path: "/profile",
-  },
-  {
-    id: 5,
     icon: <PaymentIcon />,
     label: "Mening to'lovlarim",
     path: "/my-payments",
   },
   {
-    id: 6,
-    icon: <ActivityIcon />,
-    label: "Faoliyat",
-    path: "/activity",
+    id: 5,
+    icon: <ProfileIcon />,
+    label: "Profil",
+    path: "/profile",
   },
 ];

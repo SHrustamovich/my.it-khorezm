@@ -1,13 +1,11 @@
-.green-btn {
-  background: $green;
+.green_btn {
+  background: $blue;
+  color: $white;
   border-radius: 15px;
-  padding-block: 13px;
-  padding-inline: 26px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: $white;
-  font-family: "Poppins";
   font-size: 16px;
   font-weight: 500;
+  max-width: max-content;
 }
