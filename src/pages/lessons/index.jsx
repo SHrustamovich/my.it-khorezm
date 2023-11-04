@@ -39,6 +39,8 @@ const Lessons = () => {
 
   let process = 20;
 
+
+
   return (
     <React.Fragment>
       <div style={{ display: "flex", gap: "64px" }}>

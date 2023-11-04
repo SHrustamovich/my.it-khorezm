@@ -7,7 +7,6 @@ import {
 import MemberModal from "../memberModal";
 import { useState } from "react";
 
-// eslint-disable-next-line react/prop-types
 function ClosedFiles({ setLock }) {
   const [isModalOpen, setIsModalOpen] = useState(false);
 

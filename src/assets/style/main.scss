@@ -4,7 +4,6 @@
 @import "./generals/narmalize";
 @import "./components/login/login-pge";
 @import "./components/root";
-@import "./components/modules/proccess-card";
 @import "./components/global-components/course-card";
 @import "./components/global-components/detailed-btn";
 @import "./components/global-components/green-btn";
@@ -13,10 +12,8 @@
 @import "./components/home/info-card";
 @import "./components/home/practise-card";
 @import "./components/home/calendar";
-@import "./components/payment/pay-card";
 @import "./components/lesson-table/big-calendar";
 @import "./components/lesson-table/week-calendar";
-@import "./components/modules/module";
 @import "./components/lessons/accordion";
 @import "./components/lessons/member-modal";
 @import "./components/lessons/tab";
@@ -30,4 +27,7 @@
 @import "./components/profile/courses-completed";
 @import "./components/profile/current-courses";
 @import "./components/profile/profilePart";
+@import "./components/modules/module";
+@import "./components/modules/proccess-card";
+@import "./components/payment/pay-card";
 @import "./generals/generals";

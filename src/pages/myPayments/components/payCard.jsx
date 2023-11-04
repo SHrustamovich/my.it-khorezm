@@ -1,6 +1,5 @@
 import { BookMediaIcon, GreenPentulIcon } from "@/assets/icons";
-import { useEffect } from "react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 function PayCard() {
   const [rotate, setRotate] = useState(45);

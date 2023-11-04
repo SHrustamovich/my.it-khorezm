@@ -2,7 +2,6 @@ import { DownloadIcon } from "@/assets/icons";
 import { filesInfo } from "@/utils/data";
 import React from "react";
 
-// eslint-disable-next-line react/prop-types
 const Files = () => {
   return (
     <React.Fragment>
