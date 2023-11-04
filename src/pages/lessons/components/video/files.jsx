@@ -6,7 +6,9 @@ const Files = () => {
   return (
     <React.Fragment>
       <div className="group">
-        <h2 className="group__title">Mavzuga doir kerakli fayllarni yuklab olish</h2>
+        <h2 className="group__title">
+          Mavzuga doir kerakli fayllarni yuklab olish
+        </h2>
         <button className="group__btn">
           3 ta fayl <DownloadIcon />
         </button>

@@ -1,4 +1,3 @@
-import * as React from "react"
 const VideoIcon = (props) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +41,7 @@ const VideoIcon = (props) => (
       />
     </mask>
     <g mask="url(#mask0_40_30)">
-      <path d="M0 0.333496H32V29.6668H0V0.333496Z" fill="#7dba28" />
+      <path d="M0 0.333496H32V29.6668H0V0.333496Z" fill="#166199" />
     </g>
   </svg>
 )

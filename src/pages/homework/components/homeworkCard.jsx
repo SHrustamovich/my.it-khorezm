@@ -4,7 +4,7 @@ import { GreenPentulIcon } from "@/assets/icons";
 function HomeworkCard() {
   return (
     <div className="homework__card">
-      <GreenPentulIcon color="#7dba28" />
+      <GreenPentulIcon color="#166199" />
 
       <div className="homework__inner">
         <div className="homework__info">

@@ -18,12 +18,14 @@ const Lessons = () => {
       title: "Ishni boshlash",
       video: "https://media-files.vidstack.io/720p.mp4",
       duration: "1:30",
+      condition: false,
     },
     {
       id: 1,
       title: "Asboblar",
       video: "https://assets.codepen.io/6093409/hubspot-video-example.mp4",
       duration: "1:00",
+      condition: true,
     },
     {
       id: 2,
@@ -31,6 +33,7 @@ const Lessons = () => {
       video:
         "https://storage.googleapis.com/web-dev-assets/video-and-source-tags/chrome.mp4",
       duration: "2:30",
+      condition: true,
     },
   ];
 
@@ -52,7 +55,7 @@ const Lessons = () => {
             width={1008}
             className="tab__video"
           ></video>
-          <VidStack />
+          <VidStack/>
         </div>
 
         <div className="accordion__wrapper">
@@ -61,7 +64,7 @@ const Lessons = () => {
             <Progress
               className="accordion_item"
               showInfo={false}
-              strokeColor="#7DBA28"
+              strokeColor="#166199"
               strokeWidth={16}
               percent={process}
               size={[390, 16]}
