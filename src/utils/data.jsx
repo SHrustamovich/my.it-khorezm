@@ -7,7 +7,10 @@ import {
   CourseCardBg,
   GreenPentulIcon,
   LampIcon,
+  PdfIcon,
   TickIcon,
+  VideoIcon,
+  ZipIcon,
 } from "@/assets/icons";
 import { avatarImg } from "@/assets/images";
 
@@ -204,3 +207,24 @@ export const profilePart = [
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
   },
 ];
+
+export const filesInfo = [
+  {
+    id: 0,
+    icon: <VideoIcon/>,
+    title: "Kirish, Video",
+    btn: "Yuklab olish"
+  },
+  {
+    id: 1,
+    icon: <PdfIcon/>,
+    title: "Kirish, Prezdentatsiya",
+    btn: "Yuklab olish"
+  },
+  {
+    id: 2,
+    icon: <ZipIcon/>,
+    title: "Kirish qo’llanilgan materiallar",
+    btn: "Yuklab olish"
+  },
+]

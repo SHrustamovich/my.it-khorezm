@@ -17,7 +17,7 @@ const Modules = () => {
                   el.condition == "lock" ? "grayscale(100%)" : "grayscale(0%)"
                 }`,
                 outline: `${
-                  el.condition == "progress" ? "3px solid #7dba28" : "0px"
+                  el.condition == "progress" ? "3px solid #166199" : "0px"
                 }`,
                 outlineOffset: `${el.condition == "progress" ? "4px" : "0px"}`,
                 backgroundColor: `${

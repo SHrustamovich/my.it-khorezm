@@ -20,10 +20,12 @@
 @import "./components/lessons/accordion";
 @import "./components/lessons/member-modal";
 @import "./components/lessons/tab";
-@import "./components/video/files";
-@import "./components/video/homework";
-@import "./components/video/information";
-@import "./components/video/test";
+@import "./components/lessons/video";
+@import "./components/lessons/video/closedFiles";
+@import "./components/lessons/video/files";
+@import "./components/lessons/video/homework";
+@import "./components/lessons/video/information";
+@import "./components/lessons/video/test";
 @import "./components/homework/homework-card";
 @import "./components/profile/courses-completed";
 @import "./components/profile/current-courses";

@@ -58,3 +58,6 @@ export { default as PlanetaIcon } from "./planetaIcon";
 export { default as PuzzleIcon } from "./puzzleIcon";
 export { default as ReadingIcon } from "./readingIcon";
 export { default as SkillIcon } from "./skillIcon";
+export { default as DownloadIcon } from "./downloadIcon";
+export { default as PdfIcon } from "./pdfIcon";
+export { default as VideoIcon } from "./videoIcon";
